@@ -19,10 +19,10 @@ int main() {
 	cout << "Ingrese la letra: ";
 	cin >> letra;
 
-    // Convierte la letra a mayúscula para comparar
+    // Convierte la letra a mayuscula para comparar
     char mayuscula = toupper(letra);
 
-    // Verifica si la letra es mayúscula
+    // Verifica si la letra es mayuscula
     if ((mayuscula >= 'A' && mayuscula <= 'Z')) {
         // Determina si es vocal o consonante
         if (mayuscula == 'A' || mayuscula == 'E' || mayuscula == 'I' || mayuscula == 'O' || mayuscula == 'U') {
@@ -31,7 +31,7 @@ int main() {
             cout <<"La letra ingresada es una consonante." <<endl;
         }
     } else {
-        cout <<"El carácter ingresado es ua letra." <<endl;
+        cout <<"El caracter ingresado no es una letra." <<endl;
     }
     return 0;
 }
