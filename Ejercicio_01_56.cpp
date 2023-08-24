@@ -25,9 +25,9 @@ int main() {
     cin>> n;
 
     // Generar la secuencia
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < n; ++j) {
-            cout << (i + j) % 2 << " ";
+    for (int i = 0; i < n; ++i) { //representa las filas de la secuencia
+        for (int j = 0; j < n; ++j) { //representa las columnas de la secuencia
+            cout << (i + j) % 2 << " "; //valores se alternerán entre 0 y 1.
         }
         cout <<endl;
     }

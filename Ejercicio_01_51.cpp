@@ -22,11 +22,12 @@ int main() {
     cin>> divisor;
 
     int cociente = 0;
+    // Realiza la division mientras el dividendo sea mayor o igual al divisor
     while (dividendo >= divisor) {
         dividendo= dividendo - divisor;
         cociente++;
     }
-    int resto = dividendo;
+    int resto = dividendo; // El valor restante del dividendo es el resto
     cout <<"Cociente: " <<cociente <<endl;
     cout <<"Resto: " <<resto <<endl;
     return 0;
